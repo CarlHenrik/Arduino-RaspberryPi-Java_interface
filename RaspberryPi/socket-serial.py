@@ -2,6 +2,7 @@ import socket
 import serial
 from time import sleep
 
+# Device ID might change. Find it in the LXTerminal
 ser = serial.Serial('/dev/ttyUSB0', 115200)
 
 HOST = "192.168.0.100"
